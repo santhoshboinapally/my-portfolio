@@ -1,0 +1,265 @@
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background: radial-gradient(rgb(177, 160, 160), rgb(25, 25, 26));
+  color: white;
+}
+*{
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 2em;
+  text-align: center;
+  font-style: italic;
+  text-shadow: 3px 3px #0a0a0a;
+}
+nav div{  
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  padding: 1px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(13, 13, 14);
+  z-index: 1;
+}
+.nav-links a {
+  display: inline;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-style: italic;
+  text-shadow: 3px 3px #ff0000;
+}
+.intro {
+  color: white;
+  font-size: 1.5em;
+  font-style: italic;
+}
+li {
+  list-style-type: none;
+  display: inline;
+}
+li a {
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 50px;
+  margin: 10px;
+}
+.titles {
+  color: white;
+  font-size: 1em;
+}
+.container {
+  display: flex;
+  margin: 0 18em;
+  padding-top: 100px;
+}
+.col-left {
+  margin: 1em;
+  width: 150%;
+}
+.col-right {
+  margin: 2em;
+  width: 150%;
+}
+.mypic {
+  width: 500px;
+  height: 400px;
+  border-radius: 150%;
+}
+.container2 {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 20em;
+  width: 40rem;
+}
+.skill-box {
+  height: 70px;
+  margin: 25px;
+  width: 70px;
+}
+.skill-box:hover {
+  background-color: #eceb90;
+  color: white;
+}
+.edu {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+}
+.edu div {
+  width: 300px;
+  height: 150px;
+  padding: 10px 30px;
+  margin: 20px;
+  border: 1px solid hidden;
+  box-sizing: border-box;
+  background-color: rgb(38, 44, 56);
+  border-radius: 10px;
+}
+.edu-title, .exp-title, .proj-title {
+  color: rgb(34, 33, 33);
+  background-color: rgb(241, 203, 153);
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+}
+.edu div:hover {
+  box-shadow: 0 8px 16px 0 rgb(255, 251, 251);
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+}
+.projects div {
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  margin: 50px;
+  box-sizing: border-box;
+  border: 1px solid hidden;
+  background-color: rgb(38, 44, 56);
+  border-radius: 10px;
+}
+.projects div img {
+  width: 100%;
+  height: 100%;
+}
+/*.cards p a {
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-style: italic;
+  text-shadow: 2px 2px #8c93f8;
+  padding: 5px;
+  column-count: 2;
+  column-rule:  1px #333;
+}*/
+.projects div:hover {
+  box-shadow: 0 8px 16px 0 rgb(255, 251, 251);
+}
+.experience {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+}
+.experience div {
+  width: 300px;
+  height: 150px;
+  padding: 10px 30px;
+  margin: 20px;
+  box-sizing: border-box;
+  border: 1px solid hidden;
+  background-color: rgb(38, 44, 56);
+  border-radius: 10px;
+}
+.experience div:hover {
+  box-shadow: 0 8px 16px 0 rgb(255, 251, 251);
+}
+footer {
+  text-align: center;
+  width: 100%;
+  bottom: 0.5em;
+  position: relative;
+  padding: 2px;
+  background-color: rgb(13, 13, 14);
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+.footer-list {
+  position: relative;
+  display: flex;
+  padding: 0 3rem;
+}
+.footer-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.footer-text a {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(180, 175, 175);
+}
+.footer-icons {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+.footer-icons a:hover {
+  background-color: #eceb90;
+}
+.address {
+  text-align: justify;
+  padding: 10px;
+  background-color: rgb(28, 34, 44);
+  border-radius: 20px;
+  color: rgb(180, 177, 177);
+}
+.footer-nav a {
+  border: transparent;
+}
+.footer-nav a:hover {
+  color: #713dff;
+}
+@media screen and (min-width: 400px) and (max-width: 1024px) {
+  .nav-links {
+    font-size: 1em;
+  }
+  .container,
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+  }
+  .col-left,
+  .col-right {
+    margin: 0;
+    width: 100%;
+  }
+  .edu, .projects, .experience {
+    display: flex;
+    flex-direction: column;
+  }
+  .edu div, .projects div, .experience div {
+    margin: 5px;
+  }
+  footer {
+    width: 100%;
+    float: none;
+    padding: unset;
+  }
+  footer ul,
+  .footer-list,
+  .footer-text,
+  .footer-text a {
+    display: block;
+    flex-direction: column;
+  }
+  .footer-text a {
+    width: 100%;
+  }
+}
