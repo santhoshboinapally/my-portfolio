@@ -13,25 +13,6 @@ h1 {
   font-style: italic;
   text-shadow: 3px 3px #0a0a0a;
 }
-nav div{  
-  width: 100%;
-  height: 70px;
-  position: fixed;
-  padding: 1px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: rgb(13, 13, 14);
-  z-index: 1;
-}
-.nav-links a {
-  display: inline;
-  padding: 5px;
-  text-decoration: none;
-  color: white;
-  text-transform: uppercase;
-}
-
 h4 {
   font-style: italic;
   text-shadow: 3px 3px #ff0000;
@@ -41,11 +22,11 @@ h4 {
   font-size: 1.5em;
   font-style: italic;
 }
-li {
+footer ul li {
   list-style-type: none;
   display: inline;
 }
-li a {
+footer ul li a {
   color: white;
   border: 1px solid white;
   padding: 10px;
@@ -137,17 +118,6 @@ li a {
   width: 100%;
   height: 100%;
 }
-/*.cards p a {
-  color: white;
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  font-style: italic;
-  text-shadow: 2px 2px #8c93f8;
-  padding: 5px;
-  column-count: 2;
-  column-rule:  1px #333;
-}*/
 .projects div:hover {
   box-shadow: 0 8px 16px 0 rgb(255, 251, 251);
 }
@@ -224,11 +194,8 @@ footer ul {
 .footer-nav a:hover {
   color: #713dff;
 }
-@media screen and (min-width: 400px) and (max-width: 1024px) {
-  .nav-links {
-    font-size: 1em;
-  }
-  .container,
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+   .container,
   .container2 {
     display: flex;
     flex-direction: column;
