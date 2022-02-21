@@ -7,7 +7,7 @@ import {
 function Contact () {
     return (
         <div className="contact">
-        <h1 id="Contact">Contact</h1>  
+        <h1 id="Contact" className="hedding">Contact</h1>  
         <div className="contact-info">
         <div className="contacts">
             <p>Phone : +45 53356789</p>

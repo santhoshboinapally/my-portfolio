@@ -4,7 +4,7 @@ import Fade  from "react-reveal/Fade";
 function Education () {
 return( 
 <div className="container4">
-<h1 id="Education">Education</h1>
+<h1 id="Education" className="hedding">Education</h1>
  <div className="edu">
     <Fade>
      <div className="hyf">

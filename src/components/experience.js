@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 function Experience(){
     return(
         <div>
-            <h1 id="Experience">Experience</h1>
+            <h1 id="Experience" className="hedding">Experience</h1>
             <div className="experience">
                 <Fade left>
             <div className="exp1">

@@ -4,7 +4,7 @@ import  Zoom  from "react-reveal/Zoom";
 export default function Projects () {
         return(
         <div>
-            <h1 id="Projects">Projects</h1>   
+            <h1 id="Projects" className="hedding">Projects</h1>   
             <div className="projects">
           {projectList.map((info) => (    
                   <Zoom>          

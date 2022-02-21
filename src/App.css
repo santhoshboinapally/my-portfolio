@@ -7,11 +7,27 @@ body {
 *{
   box-sizing: border-box;
 }
-h1 {
+/*h1 {
   font-size: 2em;
   text-align: center;
   font-style: italic;
   text-shadow: 3px 3px #0a0a0a;
+}*/
+.hedding {
+  padding: 8px;
+  text-align: center;
+  font-style: italic;
+  text-shadow: 3px 3px #0a0a0a;
+  background:
+    linear-gradient(#ff0000 0 0) top left,
+    linear-gradient(#00ffff 0 0) bottom right;
+  background-size: 0% 0%;
+  background-repeat: no-repeat;
+  background-blend-mode: lighten;
+  transition: .5s;
+}
+.hedding:hover {
+  background-size: calc(50% - 20px) calc(50% - 20px);
 }
 h4 {
   font-style: italic;
@@ -120,6 +136,10 @@ footer ul li a {
 }
 .projects div:hover {
   box-shadow: 0 8px 16px 0 rgb(255, 251, 251);
+}
+.cards p a{
+  color:blue;
+  text-decoration: none;
 }
 .experience {
   display: flex;
