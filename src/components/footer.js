@@ -1,10 +1,9 @@
 import React  from "react";
 import {
-  FaFacebookF,
-  FaGithubAlt,
-  FaLinkedinIn,
+  
   FaInstagram
 } from "react-icons/fa";
+import {BsGithub,BsFacebook,BsLinkedin} from "react-icons/bs";
 const Footer = () => {
     return (      
   <div>
@@ -24,9 +23,9 @@ const Footer = () => {
 <div className="footer-text">
   <h4>LINKS </h4>
   <div className="footer-icons">
-  <a href="https://www.linkedin.com/in/santhosh-boinapally/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn  /></a>   
-  <a href="https://github.com/santhoshboinapally" target="_blank" rel="noopener noreferrer"><FaGithubAlt /></a>
-  <a href="https://www.facebook.com/santhosboinapally/" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
+  <a href="https://www.linkedin.com/in/santhosh-boinapally/" target="_blank" rel="noopener noreferrer"><BsLinkedin  /></a>   
+  <a href="https://github.com/santhoshboinapally" target="_blank" rel="noopener noreferrer"><BsGithub /></a>
+  <a href="https://www.facebook.com/santhosboinapally/" target="_blank" rel="noopener noreferrer"><BsFacebook /></a>
   <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram  /></a>
   </div>
 </div></li>

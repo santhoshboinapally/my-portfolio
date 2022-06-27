@@ -1,18 +1,21 @@
 import React from "react";
 import projectList from "./data/projectData";
 import  Zoom  from "react-reveal/Zoom";
+import {BsGithub} from "react-icons/bs";
+import {CgScreen} from "react-icons/cg";
+
 export default function Projects () {
         return(
         <div>
-            <h1 id="Projects" className="hedding">Projects</h1>   
+            <h1 id="Projects" className="hedding" >Projects</h1>   
             <div className="projects">
           {projectList.map((info) => (    
-                  <Zoom>          
-                  <div className="cards">                      
-                     <p className="proj-title">{info.title}</p>
+                  <Zoom  key={info.id}>          
+                  <div className="cards"  key={info.id}>                      
+                     <p className="proj-title" >{info.title}</p>
                      <p><img src={info.image} alt={info.title}/></p>
-                     <p><a href={info.codeurl}>CodeUrl</a></p>
-                     <p><a href={info.appurl}>AppUrl </a></p>
+                     <p><a href={info.codeurl}><BsGithub /></a></p>
+                     <p><a href={info.appurl}><CgScreen /> </a></p>
                   </div>
                   </Zoom>
             ))}</div>
