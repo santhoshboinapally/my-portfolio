@@ -8,7 +8,7 @@ return (<div>
   <h1 id="Skills" className="hedding">Skills</h1>
       <div className="container2">
            {Skilldata.map((info) => (
-              <div className="col-icons">
+              <div className="col-icons" key={info.id}>
                 <Flip>
                 <img
                   className="skill-box"

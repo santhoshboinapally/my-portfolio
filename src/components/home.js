@@ -1,17 +1,27 @@
 import React from "react";
-import image from "./images/mypic2.png";
+import image from "./images/mypic.png";
 import {Slide}  from "react-reveal";
+import './hi.css';
+
 function Home() {
     return (
-        <div className="container" id="About">
-        <div className="col-left">
+        <div  id="About">
+          <div className="title"> 
+           <center> <h1>Hi, I'm Santhosh👋</h1></center>
+            </div>
+            <div className="container">
+          <div className="col-left">
           <Slide left>
           <p className="intro">
-            <strong>Hi, I'm Santhosh.</strong><br/>
-            I'm a frontend web developer looking for a position in IT industry.When i decided to restart my carrer as 
-            developer,I want to upgraded myself,so started my journey with HackYourFuture 
-            coding school, where i was working on different projects and gained hands-on 
-            experience in working with HTML, CSS,JavaScript,NodeJs,MySQL and ReactJs.</p>
+            I’m a Web developer looking for a position that
+needs innovation, creation, dedication and
+enables me to continue to my work. During
+HackYourFuture bootcamp i gained strong
+competence within problem solving and worked in different projects and gained hands-on 
+experience in working with HTML, CSS,JavaScript,NodeJs,MySQL and ReactJs as well as a
+great deal of experience in working in a team. I
+am very social person and enjoy teamwork, but
+can easily work independent when needed.</p>
             </Slide>
             </div>
             <Slide right>
@@ -19,6 +29,7 @@ function Home() {
                  <img className="mypic" alt="logo" src={image} />
                 </div>
             </Slide>
+            </div>
         </div>
 
     );
