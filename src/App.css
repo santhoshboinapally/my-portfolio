@@ -23,7 +23,7 @@ body {
   background-size: calc(50% - 20px) calc(50% - 20px);
 }
 .title{
-  background:
+   background:
     linear-gradient(#ff0000 0 0) top left,
     linear-gradient(#4c04f4 0 0) bottom right;
   background-size: 0% 0%;
