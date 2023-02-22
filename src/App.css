@@ -229,7 +229,7 @@ footer ul {
 .footer-nav a:hover {
   color: #713dff;
 }
-@media screen and (min-width: 400px) and (max-width: 1024px) {
+@media screen and (min-width: 360px) and (max-width: 1024px) {
    .container,
   .container2 {
     display: flex;
