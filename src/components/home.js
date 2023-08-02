@@ -7,7 +7,7 @@ function Home() {
     return (
         <div  id="About">
           <div className="title"> 
-           <center> <h1>Hi, I'm Santhosh<span role="img" aria-label="Hand">👋;</span></h1></center>
+           <center> <h1>Hi, I'm Santhosh<span role="img" aria-label="Hand">👋</span></h1></center>
             </div>
             <div className="container">
           <div className="col-left">
